@@ -1,8 +1,11 @@
 # from requests import Response -- Конструкцию Result_post: Response = ... устарела, можно без нее
 import json
+import sys 
+sys.path.append("C:\\Users\\galov\\ED_auto\\ED_APItests_project")
 from utils.checking import Checking
 from utils.api import Google_Maps_API
 import allure
+
 
 """Создание, изменение и удаление новой локации"""
 @allure.epic("Test create new location")
